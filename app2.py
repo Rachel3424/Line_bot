@@ -56,7 +56,7 @@ def linebot():
             reply = '可以文字詢問我法律問題喔~'
 
         else:
-            reply = ':)>>>>>>>>'
+            reply = ':)>'
 
         print(reply)
         line_bot_api.reply_message(tk, TextSendMessage(reply))
