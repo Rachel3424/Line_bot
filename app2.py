@@ -65,4 +65,4 @@ def linebot():
     return 'OK'
 
 if __name__ == "__main__":
-    app.run(port=9988)
+    app.run()
